@@ -1,0 +1,40 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-cocoapod-support": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "trustwalletcore": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/trustwalletcore/www/trustwallet.js",
+      "id": "trustwalletcore.Trustwallet",
+      "pluginId": "trustwalletcore",
+      "clobbers": [
+        "Trustwallet"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "cordova-plugin-cocoapod-support": "1.6.2",
+    "cordova-plugin-whitelist": "1.3.4",
+    "trustwalletcore": "0.2.3"
+  }
+}

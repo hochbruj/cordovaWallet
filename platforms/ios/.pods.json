@@ -1,0 +1,11 @@
+{
+	"pods": {
+		"TrustWalletCore": {
+			"type": "pod",
+			"name": "TrustWalletCore"
+		}
+	},
+	"sources": {},
+	"iosMinVersion": "11.0",
+	"useFrameworks": true
+}
